@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/layout_inflate_material_list_item_TXT_material"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/activity_main_TXT_material"
+        android:textColor="#666666"
+        android:textSize="@dimen/_12sdp" />
+
+    <EditText
+        android:id="@+id/layout_inflate_material_list_item_ET_itemname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_roundcorner_grey"
+        android:hint="@string/layout_inflate_material_list_item_ET_itemname"
+        android:imeOptions="actionNext"
+        android:layout_marginTop="7dp"
+        android:inputType="text"
+        android:padding="10dp"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/layout_inflate_material_list_item_TXT_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/layout_inflate_material_list_item_TXT_qty"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/_12sdp" />
+
+            <EditText
+                android:id="@+id/layout_inflate_material_list_item_ET_qty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/bg_roundcorner_grey"
+                android:gravity="center"
+                android:hint="0"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:padding="10dp"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/layout_inflate_material_list_item_TXT_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/layout_inflate_material_list_item_TXT_cost"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/_12sdp" />
+
+            <EditText
+                android:id="@+id/layout_inflate_material_list_item_ET_cost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/bg_roundcorner_grey"
+                android:gravity="center"
+                android:hint="0.0"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:padding="10dp"
+                android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/layout_inflate_material_list_item_TXT_tax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/layout_inflate_material_list_item_TXT_tax"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/_12sdp" />
+
+            <EditText
+                android:id="@+id/layout_inflate_material_list_item_ET_tax"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/bg_roundcorner_grey"
+                android:gravity="center"
+                android:hint="0%"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:padding="10dp"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/layout_inflate_material_list_item_TXT_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/layout_inflate_material_list_item_TXT_total"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/_12sdp" />
+
+            <EditText
+                android:id="@+id/layout_inflate_material_list_item_ET_total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/bg_roundcorner_grey"
+                android:gravity="center"
+                android:hint="00.00"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:padding="10dp"
+                android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

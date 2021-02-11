@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/card_viewgrey">
+
+    <RelativeLayout
+        android:id="@+id/activity_joblist_LAY_header"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:id="@+id/activity_joblist_LAY_back"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/icon_arrow" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="JOB LIST"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/activity_joblist_VW_below_header"
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_below="@+id/activity_joblist_LAY_header"
+        android:background="@color/colorPrimary" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/activity_joblist_RCYLV_job"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/activity_joblist_VW_below_header"
+        android:nestedScrollingEnabled="true"
+        android:orientation="horizontal" />
+</RelativeLayout>

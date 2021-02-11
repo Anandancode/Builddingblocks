@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Buildingblocks</string>
+
+    <!--Main Screen-->
+    <string name="activity_main_BTN_submit">Submit</string>
+    <string name="activity_main_BTN_addjob">Add Job</string>
+    <string name="activity_main_TXT_totalorder_hint">Total Work Order Cost</string>
+    <string name="activity_main_TXT_suborder_hint">Job Total</string>
+    <string name="activity_main_TXT_addmaterial">Add Material +</string>
+    <string name="activity_main_TXT_material">Material 1</string>
+    <string name="activity_main_TXT_time_material">Time &amp; Materials</string>
+    <string name="activity_main_TXT_description_hint">Description</string>
+    <string name="activity_main_ET_description">Description..</string>
+    <string name="layout_inflate_material_list_item_ET_itemname">Item..</string>
+    <string name="layout_inflate_material_list_item_TXT_qty">Qty</string>
+    <string name="layout_inflate_material_list_item_TXT_cost">Cost</string>
+    <string name="layout_inflate_material_list_item_TXT_tax">Tax</string>
+    <string name="layout_inflate_material_list_item_TXT_total">Total ($)</string>
+
+    <string name="txt_splash">Building\nBlocks</string>
+
+</resources>
